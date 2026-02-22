@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+*.md
+.DS_Store
+test
+docs
+
+# Env files must never enter the image — secrets are injected at runtime
+# via --env-file on docker run (or Render environment variables).
+*.env
+.env
+.env.*

@@ -1,0 +1,21 @@
+{
+  "name": "automate-trading-workers",
+  "version": "1.0.0",
+  "description": "Steam trading automation worker service (stateless, restartable)",
+  "main": "main.js",
+  "scripts": {
+    "start": "NODE_ENV=production node main.js",
+    "dev": "NODE_ENV=development node --inspect main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": ">=1.30.0 <1.41.0",
+    "@mistralai/mistralai": "^1.10.0",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "franc": "^5.0.0",
+    "fs-extra": "^11.3.0",
+    "socks-proxy-agent": "^8.0.5"
+  }
+}
